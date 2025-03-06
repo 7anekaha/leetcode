@@ -1,3 +1,4 @@
+struct Solution;
 impl Solution {
     pub fn pivot_array(nums: Vec<i32>, pivot: i32) -> Vec<i32> {
         let mut less = Vec::new();
@@ -16,4 +17,8 @@ impl Solution {
         less.append(&mut greater);
         less
     }
+}
+
+fn main(){
+    Solution::pivot_array(vec![9, 12, 3, 5, 14, 10, 10], 10);
 }

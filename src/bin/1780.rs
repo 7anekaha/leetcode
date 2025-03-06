@@ -1,3 +1,5 @@
+struct Solution;
+
 impl Solution {
     pub fn check_powers_of_three(n: i32) -> bool {
 
@@ -12,4 +14,9 @@ impl Solution {
         n == 0
 
     }
+}
+
+
+fn main(){
+    Solution::check_powers_of_three(12);
 }

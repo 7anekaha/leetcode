@@ -1,3 +1,4 @@
+struct Solution;
 impl Solution {
     pub fn colored_cells(n: i32) -> i64 {
         let mut ans:i64 = 1;
@@ -6,4 +7,8 @@ impl Solution {
         }
         ans
     }
+}
+
+fn main(){
+    Solution::colored_cells(3);
 }
